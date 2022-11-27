@@ -1,0 +1,32 @@
+@import "../../styles/mixin";
+.navbar {
+  padding: 10px 20px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      color: royalblue;
+    }
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .link {
+        text-decoration: none;
+        color: inherit;
+        h6 {
+          font-weight: 500;
+          font-size: 16px;
+        }
+        &.write {
+          font-size: 24px;
+          color: royalblue;
+        }
+      }
+      button {
+        @include simpleBtn;
+      }
+    }
+  }
+}
