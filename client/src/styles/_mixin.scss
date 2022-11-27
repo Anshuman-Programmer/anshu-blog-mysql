@@ -1,5 +1,15 @@
 @mixin center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin simpleBtn {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: royalblue;
+  color: whitesmoke;
+  outline: none;
+  border: 0;
+  cursor: pointer;
 }
