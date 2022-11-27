@@ -1,0 +1,33 @@
+@import "../../styles/mixin";
+.auth{
+    @include center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    h1{
+
+    }
+    form{
+        @include center;
+        flex-direction: column;
+        gap: 10px;
+        input{
+            width: 300px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 2px solid rgb(181, 199, 255);
+            font-size: 20px;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 20px;
+            background-color: royalblue;
+            color: whitesmoke;
+            width: 100%;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
